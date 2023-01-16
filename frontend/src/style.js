@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    max-width: 742px;
+    max-width: 760px;
     height: 100%;
     padding: 0 1rem;
 `;
@@ -52,6 +52,8 @@ export const ButtonCreate = styled.button`
 `
 
 export const Wrapper = styled.div`
+    height: 500px;
+    overflow-y: scroll;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,5 +61,5 @@ export const Wrapper = styled.div`
     gap: 18px;
     border-top: 4px solid #474644;
     margin-top: 18rem;
-    padding-top: 1rem;
+    padding: 1rem 0;
 `;
