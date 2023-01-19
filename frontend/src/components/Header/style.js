@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
 export const Navbar = styled.header`
+  position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -83,7 +83,7 @@ const Create = () => {
           />
         </InputGroup>
         <InputGroup>
-          <Label htmlFor="fone">fone</Label>
+          <Label htmlFor="fone">Tel</Label>
           <Input
             placeholder="Ex: +55 82 9123-45678"
             name="fone"
